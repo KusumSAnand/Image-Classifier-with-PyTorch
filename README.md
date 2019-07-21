@@ -22,9 +22,9 @@ Below summary highlights the sequence of the Image Classifier project flow.
 
 *Data normalization* 	The training, validation, and testing data is appropriately cropped and normalized.
 
-*Data loading *	The data for each set (train, validation, test) is loaded with torchvision's ImageFolder.
+*Data loading*	 The data for each set (train, validation, test) is loaded with torchvision's ImageFolder.
 
-*Data batching *	The data for each set is loaded with torchvision's DataLoader.
+*Data batching*  The data for each set is loaded with torchvision's DataLoader.
 
 *Pretrained Network* 	A pretrained network s loaded from torchvision.models and the parameters are frozen.
 
@@ -32,7 +32,7 @@ Below summary highlights the sequence of the Image Classifier project flow.
 
 *Training the network* 	The parameters of the feedforward classifier are appropriately trained, while the parameters of the feature network are left static.
 
-*Validation Loss and Accuracy *	During training, the validation loss and accuracy are displayed.
+*Validation Loss and Accuracy*	During training, the validation loss and accuracy are displayed.
 
 *Testing Accuracy* 	The network's accuracy is measured on the test data.
 
@@ -54,7 +54,7 @@ Below summary highlights the sequence of the Image Classifier project flow.
 
 *Model architecture* 	The training script allows users to choose from at least two different architectures available from torchvision.models
 
-*Model hyperparameters *	The training script allows users to set hyperparameters for learning rate, number of hidden units, and training epochs.
+*Model hyperparameters*	The training script allows users to set hyperparameters for learning rate, number of hidden units, and training epochs.
 
 *Training with GPU* 	The training script allows users to choose training the model on a GPU.
 
