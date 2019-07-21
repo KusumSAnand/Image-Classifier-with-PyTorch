@@ -9,7 +9,7 @@
 <a id='Overview'></a>
 ## Overview
 
-The project,part of Udacity's Data Science track, involves building an Image classifier to recognise different species of flowers. The project has two components: Designing and training a deep neural network and the export it for use via command line application.
+The project,part of Udacity's Data Science track, involves building an Image classifier to recognise different species of flowers. The project has two components: Designing and training a deep neural network and export trained model for use via command line application.
 The image classifer identifies a total of  102 species of flower categories. 
 
 Below summary highlights the sequence of the Image Classifier project flow.
